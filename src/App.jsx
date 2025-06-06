@@ -16,7 +16,9 @@ const App = () => {
 
   useEffect(() => {
     console.log("counter updates", count);
-  }, [count])
+  }, [count]);
+
+  
 
   return (
     <div className="w-[400px] flex flex-col justify-start items-center  h-[350px] bg-green-400 p-8 mx-auto mt-[200px] border rounded-2xl">
